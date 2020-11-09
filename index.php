@@ -34,9 +34,8 @@
             <input type="submit" value="Convert!">
         </form>
         <?php
-            // if no input, default will be 15
-            $number = $_POST['human_years'] ?? 15;
-            $choose = $POST['choose'] ?? null;
+            $number = $_POST['human_years'];
+            $choose = $POST['choose'];
 
             // 1 human year == 19 cat years, else calculate cat years if input is > 1
             $number == 15 ? $cat_years = 1 : $cat_years = (($number-15)*4 - 3);
