@@ -20,4 +20,16 @@
 		  </div>
 		</nav>
 	</body>
+
+    <form method="post">
+        <input type="number" name="number" required>
+        <select name="choose">
+            <option> Convert To </option>
+            <option value="dog" id="dog"> Dog Years </option>
+            <option value="cat" id="cat"> Cat Years </option>
+            <option value="turtle" id="turtle"> Turtle Years </option>
+            <option value="bird" id="bird"> Birds Years </option>
+            <option value="bunny" id="bunny"> Bunny Years </option>
+        <input type="submit" value="Convert!">
+    </form>
 </html>
